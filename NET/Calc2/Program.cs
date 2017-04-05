@@ -15,7 +15,6 @@ namespace Calc2
 
             while (isActive) {
 
-                // call method which reads keys from console
                 ReadValues();              
 
                 switch (_operator)
@@ -49,9 +48,7 @@ namespace Calc2
                 {
                     isActive = false;
                 }
-
-                //TODO: use dictionary
-                // dictionary[_operator].GetResult(x1, x2);
+                
             }
         }
         
